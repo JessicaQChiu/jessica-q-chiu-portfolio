@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import React from "react";
 import Head from "next/head";
-import Sidebar from "./components/sidebar";
+import SidebarNav from "./components/sidebar";
+import Titlebar from "./components/titlebar";
 import { Space_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -25,14 +26,17 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${spaceMono.variable}`}>
       <Head>
-          <title>{"Jessica Q Chiu Portfolio"}</title>
-        </Head>
+        <title>{"Jessica Q Chiu Portfolio"}</title>
+      </Head>
       <body>
         <div className="h-screen">
           <div className="flex justify-center pt-20">
-            <Sidebar />
-            <div className="flex flex-col">
-              {children}
+            <SidebarNav />
+            <div className="flex flex-col md:ml-6 lg:ml-20">
+              <div className="max-w-2xl md:max-w-md lg:max-w-lg bg-white border-2 border-black shadow-[8px_8px_0px_0px_#fed7aa]">
+                <Titlebar />
+                {children}
+              </div>
             </div>
           </div>
         </div>
