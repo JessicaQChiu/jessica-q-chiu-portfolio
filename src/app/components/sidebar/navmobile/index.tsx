@@ -13,8 +13,8 @@ const Navmobile = ({
             <Link href="/" className="m-auto">
                 {/*eslint-disable-next-line*/}
                 <img
-                    src="/images/logo.png"
-                    alt="Company Logo"
+                    src="/images/star.png"
+                    alt="Logo"
                     width={50}
                     height={50}
                 />
