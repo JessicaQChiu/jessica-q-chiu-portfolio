@@ -23,15 +23,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`spaceMono.className`}>
+    <html lang="en" className={`${spaceMono.variable}`}>
       <Head>
           <title>{"Jessica Q Chiu Portfolio"}</title>
         </Head>
       <body>
-        <div className="min-h-screen">
-          <div className="flex">
+        <div className="h-screen">
+          <div className="flex justify-center pt-20">
             <Sidebar />
-            <div className="flex flex-col flex-grow w-screen md:w-full min-h-screen">
+            <div className="flex flex-col">
               {children}
             </div>
           </div>

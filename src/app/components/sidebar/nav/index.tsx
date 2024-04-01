@@ -2,46 +2,41 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
 
 const Nav = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="flex flex-col">
-        <div>
-          <div className="flex p-2">
-            <Link href="/">
-              <Image
-                src="/images/logo.png"
-                alt="Logo"
-                width={400}
-                height={400}
-              />
-            </Link>
-          </div>
-          <div className="flex flex-col">
-            <ul className="text-white">
-              <li className="flex w-full justify-center items-center border-l border-white">
-                <Link href="/about">
-                  <p className="">ABOUT</p>
-                </Link>
-              </li>
-              <li className="flex w-full justify-center items-center border-l border-white">
-                <Link href="/portfolio">
-                  <p>PORTFOLIO</p>
-                </Link>
-              </li>
-              <li className="flex w-full justify-center items-center border-l border-white">
-                <Link href="/contact">
-                  <p>CONTACT</p>
-                </Link>
-              </li>
-            </ul>
-          </div>
+      <div className="max-md:hidden flex flex-col h-screen w-64">
+        <div className="flex justify-center mb-12">
+          <Link href="/">
+            <Image src="/images/logo.png" alt="Logo" width={200} height={200} priority={true} />
+          </Link>
+        </div>
+        <div className="flex flex-col mb-6 px-4 py-2 bg-white border-2 border-black rounded-lg shadow-[5px_5px_0px_0px_#fed7aa]">
+          <p>Hey there, I am Jess and welcome to my portfolio website.</p>
+        </div>
+        <div className="flex flex-col px-4 py-2 bg-blue-200 border-2 border-black rounded-lg shadow-[5px_5px_0px_0px_#fed7aa]">
+          <ul className="text-black">
+            <li className="flex w-full justify-center items-center bg-white border-2 border-black rounded-lg">
+              <Link href="/about">
+                <p>ABOUT</p>
+              </Link>
+            </li>
+            <li className="flex w-full justify-center items-center bg-white border-2 border-black rounded-lg my-1">
+              <Link href="/portfolio">
+                <p>PORTFOLIO</p>
+              </Link>
+            </li>
+            <li className="flex w-full justify-center items-center bg-white border-2 border-black rounded-lg">
+              <Link href="/contact">
+                <p>CONTACT</p>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default Nav;
