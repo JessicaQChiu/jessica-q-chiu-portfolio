@@ -7,15 +7,16 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
       <div className="max-md:hidden flex flex-col w-60">
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-8">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/computer-icon.png"
               alt="Logo"
               width={200}
-              height={200}
+              height={160}
               priority={true}
             />
+            <p className="text-center text-xl tracking-wide underline underline-offset-8 decoration-dotted">JESSICA.Q.CHIU</p>
           </Link>
         </div>
         <div className="flex flex-col mb-6 px-4 py-2 bg-white border-2 border-black shadow-[5px_5px_0px_0px_#fed7aa]">
