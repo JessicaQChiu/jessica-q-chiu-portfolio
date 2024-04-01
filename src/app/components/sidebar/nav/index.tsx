@@ -6,7 +6,7 @@ import Link from "next/link";
 const Nav = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="max-md:hidden flex flex-col h-screen w-64">
+      <div className="max-md:hidden flex flex-col h-screen w-60">
         <div className="flex justify-center mb-12">
           <Link href="/">
             <Image src="/images/logo.png" alt="Logo" width={200} height={200} priority={true} />
