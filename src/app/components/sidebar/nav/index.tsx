@@ -33,7 +33,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
             <li className="flex items-center border-2 border-white hover:border-dotted hover:border-black active:text-white active:bg-blue-950">
               <Link href="/" className="flex row w-full">
                 <Image
-                  src="/images/star.png"
+                  src="/images/folder-icon.png"
                   alt="Logo"
                   width={25}
                   height={25}
@@ -47,8 +47,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                 className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
               >
                 <Image
-                  src="/images/starline.png"
-                  alt="Logo"
+                  src="/images/info-icon.png"
+                  alt="information icon"
                   width={35}
                   height={25}
                 />
@@ -61,8 +61,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                 className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
               >
                 <Image
-                  src="/images/starline.png"
-                  alt="Logo"
+                  src="/images/save-icon.png"
+                  alt="save icon for portfolio works"
                   width={35}
                   height={25}
                 />
@@ -75,8 +75,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                 className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
               >
                 <Image
-                  src="/images/starline.png"
-                  alt="Logo"
+                  src="/images/mail-icon.png"
+                  alt="envelope icon"
                   width={35}
                   height={25}
                 />
