@@ -8,7 +8,7 @@
 
 ## About The Project
 
-Play as a ladybug jumping over detritus in a forest filled with sunbeams! 2D platformer created to learn simple game mechanics.
+Portfolio website created to learn React, TypeScript, and Tailwind CSS. Inspired by neubrutalism and Windows 98 interface designs. No AI used. All original art. 
 
 ### Built With
 * Next.js
@@ -16,7 +16,6 @@ Play as a ladybug jumping over detritus in a forest filled with sunbeams! 2D pla
 * TypeScript
 * Tailwind CSS
 * CSS
-* Original art
 
 ## Live Site
 https://jessicaqchiu.vercel.app/
