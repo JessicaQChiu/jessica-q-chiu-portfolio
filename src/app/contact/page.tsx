@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
       <hr />
       <div className="flex flex-row">
-        <Image src="/images/logo.png" alt="Logo" width={45} height={45} />
+        <Image src="/images/smiley-icon.png" alt="Smiley face icon" width={45} height={45} />
         <h2>Connect with me</h2>
       </div>
       <ul className="text-black">
@@ -23,8 +23,8 @@ const Contact = () => {
             className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
           >
             <Image
-              src="/images/starline.png"
-              alt="Logo"
+              src="/images/mail-icon.png"
+              alt="envelope icon"
               width={35}
               height={25}
             />
@@ -37,7 +37,7 @@ const Contact = () => {
             className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
           >
             <Image
-              src="/images/starline.png"
+              src="/images/github-icon.png"
               alt="Logo"
               width={35}
               height={25}
@@ -51,7 +51,7 @@ const Contact = () => {
             className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
           >
             <Image
-              src="/images/starline.png"
+              src="/images/xtwitter-icon.png"
               alt="Logo"
               width={35}
               height={25}

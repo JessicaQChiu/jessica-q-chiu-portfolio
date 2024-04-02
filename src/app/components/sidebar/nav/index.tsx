@@ -33,7 +33,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
             <li className="flex items-center border-2 border-white hover:border-dotted hover:border-black active:text-white active:bg-blue-950">
               <Link href="/" className="flex row w-full">
                 <Image
-                  src="/images/star.png"
+                  src="/images/folder-icon.png"
                   alt="Logo"
                   width={25}
                   height={25}
@@ -47,8 +47,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                 className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
               >
                 <Image
-                  src="/images/starline.png"
-                  alt="Logo"
+                  src="/images/info-icon.png"
+                  alt="information icon"
                   width={35}
                   height={25}
                 />
@@ -61,8 +61,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                 className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
               >
                 <Image
-                  src="/images/starline.png"
-                  alt="Logo"
+                  src="/images/save-icon.png"
+                  alt="save icon for portfolio works"
                   width={35}
                   height={25}
                 />
@@ -75,8 +75,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                 className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
               >
                 <Image
-                  src="/images/starline.png"
-                  alt="Logo"
+                  src="/images/mail-icon.png"
+                  alt="envelope icon"
                   width={35}
                   height={25}
                 />
@@ -90,10 +90,10 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
             <div>
               <Link href="/" className="flex flex-col px-1 border-2 border-white hover:border-dotted hover:border-black">
                 <Image
-                  src="/images/star.png"
-                  alt="Logo"
-                  width={30}
-                  height={30}
+                  src="/images/moon-icon.png"
+                  alt="cresent moon icon"
+                  width={25}
+                  height={25}
                   style={{margin: "0 auto"}}
                 />
                 <p className="text-sm text-center">Dark<br/>Mode</p>
@@ -102,20 +102,20 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
             <div className="flex flex-row">
               <Link href="/" className="flex flex-col px-1 border-2 border-white hover:border-dotted hover:border-black">
                 <Image
-                  src="/images/star.png"
-                  alt="Logo"
-                  width={30}
-                  height={30}
+                  src="/images/reload-icon.png"
+                  alt="Refresh arrow icon"
+                  width={25}
+                  height={25}
                   style={{margin: "0 auto"}}
                 />
                 <p className="text-sm text-center">Reload</p>
               </Link>
               <Link href="/" className="flex flex-col px-1 w-12 border-2 border-white hover:border-dotted hover:border-black">
                 <Image
-                  src="/images/star.png"
-                  alt="Logo"
-                  width={30}
-                  height={30}
+                  src="/images/arrow-up-icon1.png"
+                  alt="Arrow pointing up icon"
+                  width={25}
+                  height={25}
                   style={{margin: "0 auto"}}
                 />
                 <p className="text-sm text-center">Top</p>
