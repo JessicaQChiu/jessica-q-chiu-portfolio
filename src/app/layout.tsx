@@ -29,16 +29,12 @@ export default function RootLayout({
         <title>{"Jessica Q Chiu Portfolio"}</title>
       </Head>
       <body>
-        <div className="h-screen">
-          <div className="flex justify-center pt-20">
-            <SidebarNav />
-            <div className="flex flex-col md:ml-6 lg:ml-20">
-              <div className="max-w-2xl md:max-w-md lg:max-w-lg bg-white border-2 border-black shadow-[8px_8px_0px_0px_#fed7aa]">
-                <Titlebar />
-                <div className="px-2"> 
-                {children}
-                </div>
-              </div>
+        <div className="flex justify-center pt-16">
+          <SidebarNav />
+          <div className="flex flex-col md:ml-6 lg:ml-20 mb-12">
+            <div className="max-w-2xl md:max-w-md lg:max-w-lg bg-white border-2 border-black shadow-[8px_8px_0px_0px_#fed7aa]">
+              <Titlebar />
+              <div className="px-2 pb-4">{children}</div>
             </div>
           </div>
         </div>

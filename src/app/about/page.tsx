@@ -37,13 +37,13 @@ const About = () => {
       <hr />
       <h2>What are my skills?</h2>
       <h3 className="ml-6">- Front-end Development</h3>
-        <p className="ml-12">
-          HTML, CSS, JavaScript.
-          <br />
-          Bootstrap, Tailwind CSS. React, JSX, Next.js.
-        </p>
+      <p className="ml-12">
+        HTML, CSS, JavaScript.
+        <br />
+        Bootstrap, Tailwind CSS. React, JSX, Next.js.
+      </p>
       <h3 className="ml-6">- Development Other</h3>
-        <p className="ml-12">Git, Github. Figma, Trello. Agile, Scrum</p>
+      <p className="ml-12">Git, Github. Figma, Trello. Agile, Scrum</p>
       <h3 className="ml-6">- Design</h3>
       <p className="ml-12">
         UX/UI Design - Wireframes, prototypes, usability testing.
@@ -52,16 +52,29 @@ const About = () => {
       </p>
       <hr />
       <h2>What is my history?</h2>
-      <h3 className="ml-6">2022-2024 <br /> - Freelancer + upskilling</h3>
-      <p className="ml-12">Studying software development. Working as a freelance designer and artist.</p>
-      <h3 className="ml-6">2020-2022 <br /> - Operations/Finance Analyst</h3>
-      <p className="ml-12">Being an operations/finance analyst in a startup environment allowed me
+      <h3 className="ml-6">
+        2022-2024 <br /> - Freelancer + upskilling
+      </h3>
+      <p className="ml-12">
+        Studying software development. Working as a freelance designer and
+        artist.
+      </p>
+      <h3 className="ml-6">
+        2020-2022 <br /> - Operations/Finance Analyst
+      </h3>
+      <p className="ml-12">
+        Being an operations/finance analyst in a startup environment allowed me
         to build many transferrable skills such as learning new procedures,
         compliance with standards/practices, writing documentation, taking
-        initiative with improvements, and more.</p>
-      <h3 className="ml-6">2016-2020 <br />- Victoria University of Wellington</h3>
-      <p className="ml-12">Bachelor&apos;s degree in Information Systems and Management with a
-        specialisation in IT solutions.</p>
+        initiative with improvements, and more.
+      </p>
+      <h3 className="ml-6">
+        2016-2020 <br />- Victoria University of Wellington
+      </h3>
+      <p className="ml-12">
+        Bachelor&apos;s degree in Information Systems and Management with a
+        specialisation in IT solutions.
+      </p>
       <hr />
       <h2>End Note</h2>
       <p className="ml-6">
