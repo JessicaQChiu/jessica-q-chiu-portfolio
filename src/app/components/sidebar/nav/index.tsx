@@ -26,8 +26,8 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
           </p>
         </div>
         <div className="flex flex-col bg-white border-2 border-black shadow-[5px_5px_0px_0px_#fed7aa]">
-          <div className="flex w-full px-4 py-2 bg-blue-200 border-b-2 border-black">
-            <p>Navigation</p>
+          <div className="flex w-full px-4 bg-blue-200 border-b-2 border-black">
+            <h1 className="text-base no-underline">Navigation</h1>
           </div>
           <ul className="px-4 py-2 text-black">
             <li className="flex items-center border-2 border-white hover:border-dotted hover:border-black active:text-white active:bg-blue-950">
