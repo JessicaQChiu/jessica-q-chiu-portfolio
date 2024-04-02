@@ -85,7 +85,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col mt-6 p-2 bg-white border-2 border-black shadow-[5px_5px_0px_0px_#fed7aa]">
+        <div className="flex flex-col mt-6 p-1 bg-white border-2 border-black shadow-[5px_5px_0px_0px_#fed7aa]">
           <div className="flex flex-row justify-between">
             <div>
               <Link href="/" className="flex flex-col px-1 border-2 border-white hover:border-dotted hover:border-black">
@@ -94,32 +94,32 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                   alt="cresent moon icon"
                   width={25}
                   height={25}
-                  style={{margin: "0 auto"}}
+                  style={{margin: "0 auto", padding: "4px 0 0 0"}}
                 />
-                <p className="text-sm text-center">Dark<br/>Mode</p>
+                <p className="text-sm m-auto px-1">Dark<br/>Mode</p>
               </Link>
             </div>
-            <div className="flex flex-row">
-              <Link href="/" className="flex flex-col px-1 border-2 border-white hover:border-dotted hover:border-black">
+            <div className="flex flex-row"> 
+              <button onClick={() => window.location.reload()} className="flex flex-col px-1 border-2 border-white hover:border-dotted hover:border-black">
                 <Image
                   src="/images/reload-icon.png"
                   alt="Refresh arrow icon"
                   width={25}
                   height={25}
-                  style={{margin: "0 auto"}}
+                  style={{margin: "0 auto", padding: "4px 0 0 0"}}
                 />
-                <p className="text-sm text-center">Reload</p>
-              </Link>
-              <Link href="/" className="flex flex-col px-1 w-12 border-2 border-white hover:border-dotted hover:border-black">
+                <p className="text-sm m-auto">Reload</p>
+              </button>
+              <button onClick={() => {window.scrollTo({top:0, behavior: 'smooth'})}} className="flex flex-col px-1 w-12 border-2 border-white hover:border-dotted hover:border-black">
                 <Image
                   src="/images/arrow-up-icon1.png"
                   alt="Arrow pointing up icon"
                   width={25}
                   height={25}
-                  style={{margin: "0 auto"}}
+                  style={{margin: "0 auto", padding: "4px 0 0 0"}}
                 />
-                <p className="text-sm text-center">Top</p>
-              </Link>
+                <p className="text-sm m-auto">Top</p>
+              </button>
             </div>
           </div>
         </div>
