@@ -24,7 +24,7 @@ https://jessicaqchiu.vercel.app/
 
 <div align="center">
   <a href="https://jessicaqchiu.vercel.app/">
-      <img src="https://raw.githubusercontent.com/JessicaQChiu/ladybug-jumper-game/main/imgs/ladybug-game-preview.png" alt="Screenshot preview of Jessica Q Chiu's portfolio website" width="750">
+      <img src="https://raw.githubusercontent.com/JessicaQChiu/jessica-q-chiu-portfolio/master/public/images/portfolio-website-preview.png" alt="Screenshot preview of Jessica Q Chiu's portfolio website" width="100%">
   </a>
 </div>
 
