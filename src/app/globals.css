@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @import url("https://fonts.googleapis.com/css?family=Space+Mono");
 
@@ -32,6 +32,32 @@ html {
 
 body {
   background-color: #fff7ed;
+}
+
+h1, h2 {
+  padding: 8px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 6px;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2{
+  font-size: large;
+}
+
+h3{
+  font-weight: 700;
+}
+
+hr {
+  margin: 10px 0px;
+  border: 2px solid #bfdbfe;
 }
 
 /* body {

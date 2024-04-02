@@ -35,7 +35,9 @@ export default function RootLayout({
             <div className="flex flex-col md:ml-6 lg:ml-20">
               <div className="max-w-2xl md:max-w-md lg:max-w-lg bg-white border-2 border-black shadow-[8px_8px_0px_0px_#fed7aa]">
                 <Titlebar />
+                <div className="px-2"> 
                 {children}
+                </div>
               </div>
             </div>
           </div>

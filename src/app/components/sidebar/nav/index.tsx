@@ -16,7 +16,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
               height={160}
               priority={true}
             />
-            <p className="text-center text-xl tracking-wide underline underline-offset-8 decoration-dotted">JESSICA.Q.CHIU</p>
+            <h1 className="text-center text-xl tracking-wide underline underline-offset-8 decoration-dotted">JESSICA.Q.CHIU</h1>
           </Link>
         </div>
         <div className="flex flex-col mb-6 px-4 py-2 bg-white border-2 border-black shadow-[5px_5px_0px_0px_#fed7aa]">
