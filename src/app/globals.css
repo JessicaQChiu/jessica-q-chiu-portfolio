@@ -13,24 +13,24 @@
 }
 
 :root {
-  --background-rgb: #fff7ed;
+  --background-color: #fff7ed;
   --blue-highlight: #bfdbfe;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 html {
   font-family: var(--font-space-mono), 'Courier New';
 }
 
 body {
-  background-color: var(--foreground-rgb);
+  background-color: var(--background-color);
 }
 
 h1, h2 {
@@ -58,16 +58,6 @@ hr {
   margin: 10px 0px;
   border: 2px solid var(--blue-highlight);
 }
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
 
 @layer utilities {
   .text-balance {
