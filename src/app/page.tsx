@@ -1,10 +1,16 @@
-export default function Home() {
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+const Home = () => {
   return (
     <div className="p-2">
-        <h1>Home - h1 text</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+      <h1>Welcome Home</h1>
+      <div className="flex">
+        <Image src="/images/landing-image.png" alt="Smiley face icon" width={600} height={700} />
+      </div>
     </div>
   );
-}
+};
+
+export default Home;
