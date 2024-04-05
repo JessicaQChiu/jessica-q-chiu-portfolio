@@ -106,7 +106,14 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                     alt="Refresh arrow icon"
                     width={25}
                     height={25}
-                    className="mx-auto pt-1"
+                    className="dark:hidden mx-auto pt-1"
+                  />
+                  <Image
+                    src="/images/reload-icon-dark.png"
+                    alt="Refresh arrow icon"
+                    width={25}
+                    height={25}
+                    className="hidden dark:flex mx-auto pt-1"
                   />
                   <p className="text-sm m-auto">Reload</p>
                 </button>
@@ -122,7 +129,14 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                     alt="Arrow pointing up icon"
                     width={25}
                     height={25}
-                    className="mx-auto pt-1"
+                    className="dark:hidden mx-auto pt-1"
+                  />
+                  <Image
+                    src="/images/arrow-up-icon-dark1.png"
+                    alt="Arrow pointing up icon"
+                    width={25}
+                    height={25}
+                    className="hidden dark:flex mx-auto pt-1"
                   />
                   <p className="text-sm m-auto">Top</p>
                 </button>

@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
       <hr />
       <div className="flex flex-row">
-        <Image src="/images/smiley-icon.png" alt="Smiley face icon" width={45} height={45} />
+        <Image src="/images/smiley-icon-47px.png" alt="Smiley face icon" width={45} height={45} />
         <h2>Connect with me</h2>
       </div>
       <ul className="dark:text-white">
@@ -27,6 +27,14 @@ const Contact = () => {
               alt="envelope icon"
               width={35}
               height={25}
+              className="dark:hidden"
+            />
+            <Image
+              src="/images/mail-icon-dark.png"
+              alt="envelope icon"
+              width={35}
+              height={25}
+              className="hidden dark:flex"
             />
             Email: Jessica.Q.Chiu@gmail.com
           </Link>
@@ -41,6 +49,14 @@ const Contact = () => {
               alt="Logo"
               width={35}
               height={25}
+              className="dark:hidden"
+            />
+            <Image
+              src="/images/github-icon-dark.png"
+              alt="envelope icon"
+              width={35}
+              height={25}
+              className="hidden dark:flex"
             />
             Github: JessicaQChiu
           </Link>
@@ -55,6 +71,14 @@ const Contact = () => {
               alt="Logo"
               width={35}
               height={25}
+              className="dark:hidden"
+            />
+            <Image
+              src="/images/xtwitter-icon-dark.png"
+              alt="envelope icon"
+              width={35}
+              height={25}
+              className="hidden dark:flex"
             />
             X/Twitter: JessicaQChiu
           </Link>
