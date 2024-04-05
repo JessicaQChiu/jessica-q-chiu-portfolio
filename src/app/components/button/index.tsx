@@ -12,7 +12,7 @@ const Button: React.FC<Props> = ({
       style={{
          height: "auto",
          width: "auto",
-         padding: "2px 6px",
+         padding: "4px 4px",
          backgroundColor:"#fdba74",
          color: "#000000",
          border: "outset",
