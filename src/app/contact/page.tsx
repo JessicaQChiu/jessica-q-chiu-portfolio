@@ -16,11 +16,11 @@ const Contact = () => {
         <Image src="/images/smiley-icon.png" alt="Smiley face icon" width={45} height={45} />
         <h2>Connect with me</h2>
       </div>
-      <ul className="text-black">
-        <li className="flex ml-6 w-42 items-center bg-white border-l-2 border-dotted border-black hover:border-hidden active:text-white active:bg-blue-950">
+      <ul className="dark:text-white">
+        <li className="flex ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
           <Link
             href="mailto:jessica.q.chiu@gmail.com"
-            className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
+            className="flex row w-full border-2 border-white dark:border-zinc-900 hover:border-dotted hover:border-black dark:hover:border-white hover:pl-0.5"
           >
             <Image
               src="/images/mail-icon.png"
@@ -31,10 +31,10 @@ const Contact = () => {
             Email: Jessica.Q.Chiu@gmail.com
           </Link>
         </li>
-        <li className="flex ml-6 w-42 items-center bg-white border-l-2 border-dotted border-black hover:border-hidden active:text-white active:bg-blue-950">
+        <li className="flex ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
           <Link
             href="https://github.com/JessicaQChiu"
-            className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
+            className="flex row w-full border-2 border-white dark:border-zinc-900 hover:border-dotted hover:border-black dark:hover:border-white hover:pl-0.5"
           >
             <Image
               src="/images/github-icon.png"
@@ -45,10 +45,10 @@ const Contact = () => {
             Github: JessicaQChiu
           </Link>
         </li>
-        <li className="flex ml-6 w-42 items-center bg-white border-l-2 border-dotted border-black hover:border-hidden active:text-white active:bg-blue-950">
+        <li className="flex ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
           <Link
             href="https://twitter.com/JessicaQChiu"
-            className="flex row w-full border-2 border-white hover:border-dotted hover:border-black hover:pl-0.5"
+            className="flex row w-full border-2 border-white dark:border-zinc-900 hover:border-dotted hover:border-black dark:hover:border-white hover:pl-0.5"
           >
             <Image
               src="/images/xtwitter-icon.png"
