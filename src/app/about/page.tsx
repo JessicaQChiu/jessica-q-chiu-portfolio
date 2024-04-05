@@ -16,8 +16,10 @@ const About = () => {
         Let&apos;s learn more me and why I may be a good fit for you.
       </p>
       <br />
-      <Button onClick={() => window.open("Jessica Chiu - Resume.pdf")}>
-        Download My Resume (PDF)
+      <Button>
+        <a href="Jessica Chiu - Resume.pdf" target="_blank" rel="noreferrer">
+          Open My Resume (PDF) ↗ 
+        </a>
       </Button>
       <br />
       <hr />
