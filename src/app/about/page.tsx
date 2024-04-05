@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Button from "../components/button";
+import Image from "next/image";
 import Link from "next/link";
 
 const About = () => {
@@ -18,7 +19,12 @@ const About = () => {
       </p>
       <br />
       <Button>
-        <a href="Jessica Chiu - Resume.pdf" target="_blank" rel="noreferrer" className="my-1 px-2 border-orange-300 border-2 border-dotted hover:border-black">
+        <a
+          href="Jessica Chiu - Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="my-1 px-2 border-orange-300 border-2 border-dotted hover:border-black"
+        >
           Open My Resume (PDF) ↗
         </a>
       </Button>
@@ -102,14 +108,18 @@ const About = () => {
         glimpse.
         <br />
         <br />
-        <Link href="/contact" className="mr-2 font-bold text-blue-700 dark:text-teal-200 hover:underline hover:underline-offset-2 hover:decoration-2">
+        <Link
+          href="/contact"
+          className="mr-2 font-bold text-blue-700 dark:text-teal-200 hover:underline hover:underline-offset-2 hover:decoration-2"
+        >
           Please get in touch
         </Link>
-         about freelance and permanent developer positions or other exciting
+        about freelance and permanent developer positions or other exciting
         collaboration opportunities!
         <br />
         <br />
         Thank you for your consideration!
+        <Image src="/images/smiley-icon-25px.png" alt="Smiley face icon" width={25} height={25} className="inline"/>
       </p>
     </div>
   );

@@ -46,15 +46,9 @@ h3{
 }
 
 hr {
-  margin: 10px 0px;
+  margin: 15px 0px;
   border: 2px solid var(--light-blue);
 }
-
-@media (prefers-color-scheme: dark) {
-  hr {
-    border: 2px solid #e7e5e4;
-  }
-} 
 
 @layer utilities {
   .text-balance {
