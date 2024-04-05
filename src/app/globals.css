@@ -13,24 +13,14 @@
 }
 
 :root {
-  --background-color: #fff7ed;
-  --blue-highlight: #bfdbfe;
-}
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-html {
-  font-family: var(--font-space-mono), 'Courier New';
+  --light-orange: #fff7ed;
+  --light-blue: #bfdbfe;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--light-orange);
+  font-family: var(--font-space-mono), 'Courier New';
+  color: #0000;
 }
 
 h1, h2 {
@@ -57,8 +47,14 @@ h3{
 
 hr {
   margin: 10px 0px;
-  border: 2px solid var(--blue-highlight);
+  border: 2px solid var(--light-blue);
 }
+
+@media (prefers-color-scheme: dark) {
+  hr {
+    border: 2px solid #e7e5e4;
+  }
+} 
 
 @layer utilities {
   .text-balance {

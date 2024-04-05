@@ -17,6 +17,7 @@ const Button: React.FC<Props> = ({
          width: "auto",
          padding: "2px 6px",
          backgroundColor:"#fdba74",
+         color: "#000000",
          border: "outset",
          borderColor: "#fed7aa",
       }}
