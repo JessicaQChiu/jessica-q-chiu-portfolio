@@ -12,7 +12,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
           <div className="flex justify-center mb-8">
             <Link href="/">
               <Image
-                src="/images/computer-icon.png"
+                src="/images/computer-icon-white-edge.png"
                 alt="Logo"
                 width={200}
                 height={160}
