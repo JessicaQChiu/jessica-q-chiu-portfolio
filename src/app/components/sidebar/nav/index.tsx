@@ -25,7 +25,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
           </div>
           <div className="flex flex-col mb-6 px-4 py-2 bg-white dark:bg-zinc-900 border-2 border-black dark:border-teal-600 shadow-[5px_5px_0px_0px_#fed7aa] dark:shadow-[5px_5px_0px_0px_#a8a29e]">
             <p className="dark:text-white">
-              Hey there! I&apos;m Jess. A developer and illustrator based in
+              Hi there! I&apos;m Jess. Software developer and illustrator based in
               Vancouver, Canada.
             </p>
           </div>
