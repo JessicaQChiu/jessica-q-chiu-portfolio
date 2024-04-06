@@ -13,11 +13,16 @@ const Contact = () => {
       </p>
       <hr />
       <div className="flex flex-row">
-        <Image src="/images/smiley-icon-47px.png" alt="Smiley face icon" width={45} height={45} />
+        <Image
+          src="/images/smiley-icon-47px.png"
+          alt="Smiley face icon"
+          width={45}
+          height={45}
+        />
         <h2>Connect with me</h2>
       </div>
       <ul className="dark:text-white">
-        <li className="flex ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
+        <li className="flex sm:ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
           <Link
             href="mailto:jessica.q.chiu@gmail.com"
             className="flex row w-full border-2 border-white dark:border-zinc-900 hover:border-dotted hover:border-black dark:hover:border-white hover:pl-0.5"
@@ -27,19 +32,21 @@ const Contact = () => {
               alt="envelope icon"
               width={35}
               height={25}
-              className="dark:hidden"
+              className="dark:hidden mr-2 object-contain"
             />
             <Image
               src="/images/mail-icon-dark.png"
               alt="envelope icon"
               width={35}
               height={25}
-              className="hidden dark:flex"
+              className="hidden dark:flex mr-2 object-contain"
             />
-            Email: Jessica.Q.Chiu@gmail.com
+            Email:
+            <br />
+            Jessica.Q.Chiu@gmail.com
           </Link>
         </li>
-        <li className="flex ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
+        <li className="flex sm:ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
           <Link
             href="https://github.com/JessicaQChiu"
             className="flex row w-full border-2 border-white dark:border-zinc-900 hover:border-dotted hover:border-black dark:hover:border-white hover:pl-0.5"
@@ -49,19 +56,21 @@ const Contact = () => {
               alt="Logo"
               width={35}
               height={25}
-              className="dark:hidden"
+              className="dark:hidden  mr-2 object-contain"
             />
             <Image
               src="/images/github-icon-dark.png"
               alt="envelope icon"
               width={35}
               height={25}
-              className="hidden dark:flex"
+              className="hidden dark:flex  mr-2 object-contain"
             />
-            Github: JessicaQChiu
+            Github:
+            <br />
+            JessicaQChiu
           </Link>
         </li>
-        <li className="flex ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
+        <li className="flex sm:ml-6 w-42 items-center border-l-2 border-dotted border-black dark:border-white hover:border-hidden active:text-white active:bg-teal-800">
           <Link
             href="https://twitter.com/JessicaQChiu"
             className="flex row w-full border-2 border-white dark:border-zinc-900 hover:border-dotted hover:border-black dark:hover:border-white hover:pl-0.5"
@@ -71,16 +80,18 @@ const Contact = () => {
               alt="Logo"
               width={35}
               height={25}
-              className="dark:hidden"
+              className="dark:hidden mr-2 object-contain"
             />
             <Image
               src="/images/xtwitter-icon-dark.png"
               alt="envelope icon"
               width={35}
               height={25}
-              className="hidden dark:flex"
+              className="hidden dark:flex mr-2 object-contain"
             />
-            X/Twitter: JessicaQChiu
+            X/Twitter:
+            <br />
+            JessicaQChiu
           </Link>
         </li>
       </ul>
