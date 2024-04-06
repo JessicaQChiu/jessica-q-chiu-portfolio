@@ -115,7 +115,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                     height={25}
                     className="hidden dark:flex mx-auto pt-1"
                   />
-                  <p className="text-sm m-auto">Reload</p>
+                  <p className="m-auto">Reload</p>
                 </button>
                 <button
                   onClick={() => {
@@ -138,7 +138,7 @@ const Nav = ({ toggle }: { toggle: () => void }) => {
                     height={25}
                     className="hidden dark:flex mx-auto pt-1"
                   />
-                  <p className="text-sm m-auto">Top</p>
+                  <p className="m-auto">Top</p>
                 </button>
               </div>
             </div>

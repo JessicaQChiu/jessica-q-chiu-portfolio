@@ -10,7 +10,7 @@ const ThemeToggle = () => {
       onClick={() => (theme == "light" ? setTheme("dark") : setTheme("light"))}
     >
       {theme === "light" ? (
-        <>
+        <div className="w-14">
           <Image
             src="/images/moon-icon.png"
             alt="Moon icon"
@@ -18,14 +18,9 @@ const ThemeToggle = () => {
             height={25}
             className="mx-auto pt-1"
           />
-          <p className="text-sm m-auto px-1">
-            Dark
-            <br />
-            Mode
-          </p>
-        </>
+        </div>
       ) : (
-        <>
+        <div className="w-14">
           <Image
             src="/images/sun-icon.png"
             alt="Sun"
@@ -33,13 +28,9 @@ const ThemeToggle = () => {
             height={25}
             className="mx-auto pt-1"
           />
-          <p className="text-sm m-auto px-1">
-            Light
-            <br />
-            Mode
-          </p>
-        </>
+        </div>
       )}
+      <p className="m-auto px-1">MODE</p>
     </button>
   );
 };
