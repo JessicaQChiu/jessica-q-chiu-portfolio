@@ -38,6 +38,15 @@ https://jessicaqchiu.vercel.app/
   </a>
 </div>
 
+## Preview - Mobile
+
+<div align="center">
+  <a href="https://jessicaqchiu.vercel.app/">
+    <img src="https://raw.githubusercontent.com/JessicaQChiu/jessica-q-chiu-portfolio/master/public/images/portfolio-website-preview-light-mobile.png" alt="Screenshot preview of Jessica Q Chiu's portfolio website in dark mode" width="49%">
+    <img src="https://raw.githubusercontent.com/JessicaQChiu/jessica-q-chiu-portfolio/master/public/images/portfolio-website-preview-dark-mobile.png" alt="Screenshot preview of Jessica Q Chiu's portfolio website in dark mode" width="49%">
+    </a>
+</div>
+
 ## Contact Me
 
 * [Twitter/X](https://twitter.com/jessicaqchiu)
