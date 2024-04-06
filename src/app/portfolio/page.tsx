@@ -7,13 +7,14 @@ const Portfolio = () => {
   return (
     <div className="p-2">
       <h1>PORTFOLIO</h1>
-      <p>A collection of my work.</p>
+      <p>Featured collection of my work. All illustrations used in the below projects are my own original creations.</p>
       <hr />
       <div className="flex flex-col">
         <h2>Webpage - Blue Days Podcast</h2>
-        <p className="py-4">
-          Mental health podcast landing page. Built using HTML, CSS, Javascript,
-          Bootstrap, and JQuery.
+        <p className="pb-4">
+          Mental health podcast landing page. Bold, minimal, and modern.
+          <br /><br />
+          Built using HTML, CSS, Javascript, Bootstrap, and JQuery. 
         </p>
         <Image
           src="/images/blue-days-preview.png"
@@ -41,7 +42,9 @@ const Portfolio = () => {
       <div className="flex flex-col">
         <h2>Game - Ladybug Jumper</h2>
         <p className="py-4">
-          2D platformer game. Built using HTML, CSS, and Javascript.
+          2D platformer game created to learn how to program basic game mechanics and logic.
+          <br /><br />
+          Built using HTML, CSS, and Javascript.
         </p>
         <Image
           src="/images/ladybug-jump-preview.png"
@@ -67,10 +70,11 @@ const Portfolio = () => {
       </div>
       <hr />
       <div className="flex flex-col">
-        <h2>Website - Portfolio (this one!)</h2>
+        <h2>Website - Portfolio</h2>
         <p className="py-4">
-          Portfolio website. Built using React, Next.js, Tailwind CSS, and
-          TypeScript.
+          Inspired by neubrutalism and the Windows 98 interface. Original pixel art and icons.
+          <br /><br />
+          Built using React, Next.js, Tailwind CSS, and TypeScript.
         </p>
         <Image
           src="/images/landing-img.png"
