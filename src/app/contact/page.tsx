@@ -95,6 +95,14 @@ const Contact = () => {
           </Link>
         </li>
       </ul>
+      <hr />
+      <Image
+        src="/images/computers-connecting.png"
+        alt="two retro computers connecting to each other"
+        width={445}
+        height={160}
+        className="flex object-contain"
+      />
     </div>
   );
 };
