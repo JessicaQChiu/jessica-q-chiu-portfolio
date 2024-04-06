@@ -101,7 +101,7 @@ const Contact = () => {
         alt="two retro computers connecting to each other"
         width={445}
         height={160}
-        className="flex object-contain"
+        className="m-auto object-contain"
       />
     </div>
   );
