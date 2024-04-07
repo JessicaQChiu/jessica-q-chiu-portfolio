@@ -84,7 +84,7 @@ const About = () => {
       <p className="ml-12 mb-4">
         Financial management for a start-up investment platform later acquired
         by a global wealth company. Included verification, reconcilation, trade
-        settlements, risk and compliance analysis, interal audits, documentation
+        settlements, risk and compliance analysis, audits, documentation
         and record management, providing training, and liasing with 3rd parties
         - brokers, custodians, and clients.
       </p>
