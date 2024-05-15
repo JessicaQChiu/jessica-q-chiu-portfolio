@@ -25,7 +25,18 @@ const About = () => {
           rel="noreferrer"
           className="my-1 px-2 border-orange-300 border-2 border-dotted hover:border-black"
         >
-          Open My Resume (PDF) ↗
+          Open My Developer Resume (PDF) ↗
+        </a>
+      </Button>
+      <br /><br />
+      <Button>
+        <a
+          href="Jessica Chiu - Creative Portfolio.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="my-1 px-2 border-orange-300 border-2 border-dotted hover:border-black"
+        >
+          Open My Creative Portfolio (PDF) ↗
         </a>
       </Button>
       <br />
