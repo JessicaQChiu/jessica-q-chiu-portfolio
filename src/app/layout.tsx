@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
+import Link from "next/link";
 import Head from "next/head";
 import SidebarNav from "./components/sidebar";
 import Titlebar from "./components/titlebar";
@@ -55,7 +56,12 @@ export default function RootLayout({
               <Titlebar />
               <div className="px-2 pb-4">{children}</div>
             </div>
-            <p className="mt-4 text-center md:text-start text-sm dark:text-white">Built with ♡ in 2024 by Jessica Q Chiu</p>
+            <p className="mt-4 text-center md:text-start text-sm dark:text-white">Built with ♡ in 2024 by 
+            <Link href="https://github.com/JessicaQChiu"
+            className="ml-2 border-b-2 border-dashed border-blue-200 dark:border-orange-300 hover:border-black dark:hover:border-white">
+            Jessica Q Chiu
+            </Link>
+            </p>
           </div>
         </div>
         </ThemeProvider>
