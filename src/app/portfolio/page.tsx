@@ -8,6 +8,18 @@ const Portfolio = () => {
     <div className="p-2">
       <h1>PORTFOLIO</h1>
       <p>Featured collection of my work. All illustrations used in the below projects are my own original creations.</p>
+      <br />
+      <Button>
+        <a
+          href="Jessica Chiu - Creative Portfolio.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="my-1 px-2 border-orange-300 border-2 border-dotted hover:border-black"
+        >
+          Open My Creative Portfolio (PDF) ↗
+        </a>
+      </Button>
+      <br />
       <hr />
       <div className="flex flex-col">
         <h2>Webpage - Blue Days Podcast</h2>
